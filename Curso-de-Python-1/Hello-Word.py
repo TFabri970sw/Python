@@ -1,2 +1,5 @@
 print('Hello Word!')
 print('Hi, My name is Thiago Fabri')
+print('Im 17 years old')
+print('Today is a thursday')
+print('Saint Anthony holiday')
