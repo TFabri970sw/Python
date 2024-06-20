@@ -3,8 +3,16 @@ print("""Sabor-Express
 
 print('1. Cadastrar-Restaurantes')
 print('2. Listar-Restaurantes')
-print('3. Ativar-Restaurantes')
+print('3. Ativar-Restaurante')
 print('4. Sair')
 
 opcao_escolhida = input('\nEscolha uma opção: ')
-print(f'Voce escolheu a opção {opcao_escolhida}')
+
+if opcao_escolhida == 1:
+    print('Cadastrar restaurante')
+elif opcao_escolhida == 2:
+    print('Listar restaurantes')
+elif opcao_escolhida == 3:
+    print('Ativar restaurante')
+else:
+      print('Encerrando o programa...')
