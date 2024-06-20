@@ -15,3 +15,41 @@ elif idade >= 65:
     print("Você é idoso.")
 else:
     print("Idade inválida.")
+
+#O tipo int no Python representa números inteiros, ou seja, números positivos, negativos ou zero, sem parte decimal
+#Alguns exemplos de valores int:
+
+#42
+#-10
+#0
+#1000
+#-5678
+
+#Exemplos:
+
+# Adição
+print(10 + 5)  # Resultado: 15
+
+# Subtração
+print(20 - 8)  # Resultado: 12
+
+# Multiplicação
+print(3 * 7)   # Resultado: 21
+
+# Divisão inteira (retorna apenas a parte inteira)
+print(15 // 4) # Resultado: 3
+
+# Resto da divisão
+print(17 % 5)  # Resultado: 2
+
+#Também é possível converter outros tipos de dados para int usando a função int():
+
+# Convertendo uma string para int
+numero_str = "42"
+numero_int = int(numero_str)
+print(numero_int)  # Resultado: 42
+
+# Convertendo um float para int (trunca a parte decimal)
+numero_float = 3.14
+numero_int = int(numero_float)
+print(numero_int)  # Resultado: 3
