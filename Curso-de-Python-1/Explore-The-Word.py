@@ -53,3 +53,18 @@ print(numero_int)  # Resultado: 42
 numero_float = 3.14
 numero_int = int(numero_float)
 print(numero_int)  # Resultado: 3
+
+#Para definir uma função em Python, usamos a palavra-chave 'def' seguida do nome da função e dois pontos.
+#exemplo:
+
+def exibir_saudacao(nome):
+    print(f"Olá, {nome}! Seja bem-vindo(a).")
+
+#usando a biblioteca 'os' para limpar o console.
+#exemplo:
+
+import os
+
+def exibir_saudacao(nome):
+    os.system('cls')
+    print(f"Olá, {nome}! Seja bem-vindo(a).")
